@@ -1,0 +1,39 @@
+body{
+	background-color:#E6E6FA; 
+}
+
+#galeria2 .col-lg-4{
+	margin: 0 !important;
+	padding: 45px;
+	padding-top: 20px;
+
+}
+#galeria2 img{
+	 
+	cursor: pointer;
+	transition: all 300ms;
+}
+
+#galeria2 img {
+	width: 120%;
+	height: 280px;
+}
+#galeria2 img:hover:after{
+	opacity: 1;
+	transform: scale(1);
+}
+
+#galeria2 img:hover{
+	border: 10px solid #DC143C;
+	transform: scale(1.05);
+	content:" ";
+	background-color: rgba(179, 229, 252, .1);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	transition: all 300ms;
+
+}
